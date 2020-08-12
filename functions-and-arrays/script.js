@@ -78,20 +78,22 @@ const multidimensional = [['a', 'b'], ['c', 'd']];
 // const empty = [];
 // console.log(empty);
 
+// adding an element to the end of the array 
 // empty.push('a');
 
 // empty.push('b');
+// removing an element from the end of the array
 // const element = empty.pop();
 
 // console.log(empty);
 
 // console.log('removed:', element);
 
+// adding an element to the beginning of the array 
 // empty.unshift('a');
 // empty.unshift('b');
+// removing an element from the beginning 
 // empty.shift();
-
-
 
 // const empty = [];
 // // empty[0] = 'a';
@@ -111,6 +113,8 @@ countries.splice(1, 1, 'france', 'poland');
 //     console.log(countries[i]);
 // }
 
+
+// for of loop
 // for (let country of countries) {
 //     console.log(country);
 // }
@@ -119,16 +123,3 @@ countries.splice(1, 1, 'france', 'poland');
 countries.forEach(function (country) {
     console.log(country);
 })
-
-
-
-
-
-
-
-
-
-
-
-
-
